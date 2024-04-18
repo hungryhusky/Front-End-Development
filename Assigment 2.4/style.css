@@ -1,0 +1,19 @@
+input {
+    background-color: ivory;
+    border: none;
+    margin-left: 0.5em;
+}
+input:invalid {
+    outline: 2px solid red;
+}
+
+input:valid {
+    outline: 2px solid green;
+}
+
+header {
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+/* Any additional stylesets go here */
